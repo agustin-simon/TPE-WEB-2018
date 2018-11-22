@@ -1,0 +1,97 @@
+#nav {
+  background-color: #1e1e1e;
+  height: 45px;
+  display: flex;
+}
+#nav-a {
+  color: #f7f7f7;
+  display: flex;
+  font-family: 'BebasNeue';
+}
+
+#nav-a:hover {
+  color: #988345;
+}
+
+#front {
+  display: flex;
+  color: #988325;
+  font-family: 'GeosansLight';
+  font-size: 85px;
+  margin-left: 36%;
+}
+
+#cont {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+}
+
+#disc,#can,#form{
+ color: #988345;
+ font-family: 'GeosansLight';
+}
+
+
+label, #lab {
+  color: white;
+}
+
+th {
+  color: #dedfdf;
+  font-family: 'BebasNeue';
+}
+
+#but {
+  background-color: #988345;
+  border-color: black;
+}
+
+#tituloForm,#descripcionForm,#nombreForm,#duracionForm,#discoForm {
+  border-radius: 15px;
+}
+
+
+
+
+body {
+  background: rgba(16,16,18,1);
+  background: -moz-linear-gradient(left, rgba(16,16,18,1) 0%, rgba(16,16,18,1) 50%, rgba(22,23,23,1) 50%, rgba(22,23,23,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(16,16,18,1)), color-stop(50%, rgba(16,16,18,1)), color-stop(50%, rgba(22,23,23,1)), color-stop(100%, rgba(22,23,23,1)));
+  background: -webkit-linear-gradient(left, rgba(16,16,18,1) 0%, rgba(16,16,18,1) 50%, rgba(22,23,23,1) 50%, rgba(22,23,23,1) 100%);
+  background: -o-linear-gradient(left, rgba(16,16,18,1) 0%, rgba(16,16,18,1) 50%, rgba(22,23,23,1) 50%, rgba(22,23,23,1) 100%);
+  background: -ms-linear-gradient(left, rgba(16,16,18,1) 0%, rgba(16,16,18,1) 50%, rgba(22,23,23,1) 50%, rgba(22,23,23,1) 100%);
+  background: linear-gradient(to right, rgba(16,16,18,1) 0%, rgba(16,16,18,1) 50%, rgba(22,23,23,1) 50%, rgba(22,23,23,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101012', endColorstr='#161717', GradientType=1 );
+
+}
+
+@font-face {
+    font-family: 'GeosansLight';
+    src: url('GeosansLight.ttf');
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('BebasNeue.ttf');
+}
+
+@media only screen and (max-width: 500px) {
+    #front {
+      font-size: 55px;
+      margin-left: 24%;
+    }
+    #cont {
+      margin-top: 40%;
+    }
+    #conte {
+      width: 320px;
+    }
+    #nave {
+      background-color: red;
+      height: 45px;
+      display: flex;
+      width: 250px;
+    }
+}
